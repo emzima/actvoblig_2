@@ -4,9 +4,37 @@
     box-sizing: border-box;
 }
 
-
 html{
     font-family: serif;
+}
+
+.padre{
+    width: 95%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+.hijo{
+    width: 25%;
+    background-color:red;
+    color: yellow;
+    font-size: 40px;
+    text-align: left;
+    margin: 5px;
+    padding: 20px 20px;
+}
+
+.hijoexcepcion{
+    width: 25%;
+    background-color:black;
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    margin: 5px;
+    padding: 20px 20px;
 }
 
 .piedepag{
